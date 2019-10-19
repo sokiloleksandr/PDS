@@ -3,7 +3,7 @@ Alfavet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','
 mas = str.split()
 mas.sort()
 for i in range(26):
-    print(Alfavet[i]+": ")
+    print(Alfavet[i]+" : ")
     for j in range(len(mas)):
         if mas[j].lower().startswith(Alfavet[i]):
             print(mas[j])
